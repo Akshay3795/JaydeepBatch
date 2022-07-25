@@ -125,9 +125,57 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bvalidator-1.0.5-dist\bValidator2.css" />
+    <Content Include="bvalidator-1.0.5-dist\jquery.bvalidator.js" />
+    <Content Include="bvalidator-1.0.5-dist\jquery.bvalidator.min.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.ee.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.es.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.fr.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.hr.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.pt-br.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.pt.js" />
+    <Content Include="bvalidator-1.0.5-dist\lang\bvalidator.lang.tr.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bs3\bs3form\bs3form.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bs3\bs3popover\bs3popover.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bs3\bs3popover\bs3popover.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bs3\bs3tooltip\bs3tooltip.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bs3\bs3tooltip\bs3tooltip.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bslikerc\bslikerc.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bslikerc\bslikerc.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bslikert\bslikert.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\bslikert\bslikert.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray2\gray2.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray2\gray2.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray3\gray3.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray3\gray3.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray4\gray4.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray4\gray4.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray\gray.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\gray\gray.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\group\group.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\group\group.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\insert\insert.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\insert\insert.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\orange\orange.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\orange\orange.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\postit\postit.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\postit\postit.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\bs3form.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\bs3form.min.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\bs3popover-tooltip.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\bs3popover-tooltip.min.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\default.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\default.min.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\group.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\group.min.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\insert.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\presenters\insert.min.js" />
+    <Content Include="bvalidator-1.0.5-dist\themes\red\red.css" />
+    <Content Include="bvalidator-1.0.5-dist\themes\red\red.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -136,8 +184,43 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="nivo-slider\demo\images\dev7logo.png" />
+    <Content Include="nivo-slider\demo\images\nemo.jpg" />
+    <Content Include="nivo-slider\demo\images\toystory.jpg" />
+    <Content Include="nivo-slider\demo\images\up.jpg" />
+    <Content Include="nivo-slider\demo\images\walle.jpg" />
+    <Content Include="nivo-slider\demo\scripts\jquery-1.7.1.min.js" />
+    <Content Include="nivo-slider\demo\style.css" />
+    <Content Include="nivo-slider\index.html" />
+    <Content Include="nivo-slider\jquery.nivo.slider.js" />
+    <Content Include="nivo-slider\jquery.nivo.slider.pack.js" />
+    <Content Include="nivo-slider\license.txt" />
+    <Content Include="nivo-slider\nivo-slider.css" />
+    <Content Include="nivo-slider\themes\bar\arrows.png" />
+    <Content Include="nivo-slider\themes\bar\bar.css" />
+    <Content Include="nivo-slider\themes\bar\bullets.png" />
+    <Content Include="nivo-slider\themes\bar\loading.gif" />
+    <Content Include="nivo-slider\themes\dark\arrows.png" />
+    <Content Include="nivo-slider\themes\dark\bullets.png" />
+    <Content Include="nivo-slider\themes\dark\dark.css" />
+    <Content Include="nivo-slider\themes\dark\loading.gif" />
+    <Content Include="nivo-slider\themes\default\arrows.png" />
+    <Content Include="nivo-slider\themes\default\bullets.png" />
+    <Content Include="nivo-slider\themes\default\default.css" />
+    <Content Include="nivo-slider\themes\default\loading.gif" />
+    <Content Include="nivo-slider\themes\light\arrows.png" />
+    <Content Include="nivo-slider\themes\light\bullets.png" />
+    <Content Include="nivo-slider\themes\light\light.css" />
+    <Content Include="nivo-slider\themes\light\loading.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="nivo-slider\.DS_Store" />
+    <Content Include="nivo-slider\demo\.DS_Store" />
+    <Content Include="nivo-slider\demo\images\.DS_Store" />
+    <Content Include="nivo-slider\README" />
+    <Content Include="nivo-slider\themes\.DS_Store" />
+    <Content Include="nivo-slider\themes\dark\.DS_Store" />
+    <Content Include="bvalidator-1.0.5-dist\jquery.bvalidator.min.js.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\JavaScript.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -166,10 +249,12 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\jq.cshtml" />
+    <Content Include="Views\Default\dtp.cshtml" />
+    <Content Include="Views\Default\nivos.cshtml" />
+    <Content Include="Views\Default\bvalid.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

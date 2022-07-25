@@ -18,5 +18,19 @@ namespace JSDemo.Controllers
         {
             return View();
         }
+        public ActionResult dtp()
+        {
+            return View();
+        }
+        
+        public ActionResult nivos()
+        {
+            return View();
+        }
+
+        public ActionResult bvalid()
+        {
+            return View();
+        }
     }
 }
